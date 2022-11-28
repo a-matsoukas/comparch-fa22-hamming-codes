@@ -1,1 +1,0 @@
-# comparch-fa22-hamming-codes
