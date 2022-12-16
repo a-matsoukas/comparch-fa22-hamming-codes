@@ -37,7 +37,7 @@ In the diagram above, Xs are used to indicate which sections of the encoded mess
     width="600"
 />
 
-The parity groups come from checking the parity bit and the data bits together have an even number of 1’s. PG1 comes from checking the bitstring created by P1, RD1, RD2, and RD4 has an even number of 1’s: it will be 0 if they do, and 1 if they do not. The same is true for PG2 with P2, RD1, RD3, and RD4 and for PG3 with P3, RD2, RD3, and RD4. 
+The parity groups come from checking the parity bit and the data bits together have an even number of 1’s. PG<sub>1</sub> comes from checking the bitstring created by P<sub>1</sub>, RD<sub>1</sub>, RD<sub>2</sub>, and RD<sub>4</sub> has an even number of 1’s: it will be 0 if they do, and 1 if they do not. The same is true for PG<sub>2</sub> with P<sub>2</sub>, RD<sub>1</sub>, RD<sub>3</sub>, and RD<sub>4</sub> and for PG<sub>3</sub> with P<sub>3</sub>, RD<sub>2</sub>, RD<sub>3</sub>, and RD<sub>4</sub>. 
 
 
 ### Implementation Details
@@ -55,4 +55,8 @@ Note: in our code, we output `rx_msg_bar` and similar to allow our LED display t
     width="600"
 />
 
-### 
+### Video Walkthrough
+ <video width="550" controls>
+    <source src="walkthrough.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
