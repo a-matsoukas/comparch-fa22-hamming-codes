@@ -57,6 +57,6 @@ Note: in our code, we output `rx_msg_bar` and similar to allow our LED display t
 
 ### Video Walkthrough
  <video width="550" controls>
-    <source src="walkthrough.mp4" type="video/mp4">
+    <source src="/comparch-fa22-hamming-codes/videos/walkthrough.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 
