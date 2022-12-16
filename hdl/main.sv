@@ -17,10 +17,14 @@ hamming_7_4_encoder #(.P(P)) encoder(data, tx_msg);
 hamming_7_4_decoder #(.P(P)) decoder(rx_msg, ec_data);
 
 always_comb begin : bit_error
-    tx_msg_bar = ~tx_msg;
     rx_msg = tx_msg ^ ~error_vector; 
+end
+
+always_comb begin : outputs
+    tx_msg_bar = ~tx_msg;
     rx_msg_bar = ~rx_msg;
     ec_data_bar = ~ec_data;
 end
+
 
 endmodule
