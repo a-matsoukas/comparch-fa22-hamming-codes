@@ -63,8 +63,18 @@ Note: in our code, we output `rx_msg_bar` and similar to allow our LED display t
     width="600"
 />
 
+
 ### Video Walkthrough
  <video width="550" controls>
     <source src="/comparch-fa22-hamming-codes/videos/walkthrough.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video> 
+
+### References
+Dipperstein, M. (2018, December 27). Hamming (7,4) code discussion and </br>
+    implementation. Retrieved December 16, 2022, from </br>
+    https://michaeldipperstein.github.io/hamming.html
+
+Eater, B. (2020).  What is error correction? Hamming codes in hardware.</br>
+    YouTube. Retrieved December 16, 2022, from </br>
+    https://www.youtube.com/watch?v=h0jloehRKas.
