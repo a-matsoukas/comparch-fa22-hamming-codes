@@ -18,19 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Hamming(7, 4) Codes
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Final project for Computer Architecture at Olin College </br>
+  Fall 2022 Semester </br>
+
+  <ul>
+    <li>Alex Matsoukas</li>
+    <li>Lila Smith</li>
+  </ul>
 baseurl: "/comparch-fa22-hamming-codes" # the sbundleubpath of your site, e.g. /blog
 url: "https://a-matsoukas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 
 # Build settings
-color-scheme: dark
+color-scheme: light
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 markdown: GFM
 plugins:
