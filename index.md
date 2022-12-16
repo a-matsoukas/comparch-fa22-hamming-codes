@@ -47,6 +47,14 @@ Our main module has two inputs: four bits of data and a seven bit error vector. 
 
 Note: in our code, we output `rx_msg_bar` and similar to allow our LED display to be powered by the power rail rather than a pin on the FPGA due to current limits on pins.
 
+**Bill of Materials**
+- 1 [Cmod A7](https://digilent.com/reference/programmable-logic/cmod-a7/start)
+- 16 [Green LEDs](https://www.digikey.com/en/products/detail/kingbright/WP7113LGD/1747664)
+- 16 301 Ω Resistors
+- 6 [Red LEDs](https://www.digikey.com/en/products/detail/kingbright/WP7113ID/1747663)
+- 13 1 kΩ Resistors (6 for red LEDs + 7 for error vector switch)
+- 3 [DIP Switches](https://www.digikey.com/en/products/detail/cui-devices/DS01C-254-L-04BE/11310889)
+
 
 ### Breadboard Layout
 <img 
