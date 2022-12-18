@@ -18,6 +18,9 @@ test_hamming_7_4_encoder: tests/test_hamming_7_4_encoder.sv ${ENCODING_SRCS}
 test_hamming_7_4_decoder: tests/test_hamming_7_4_decoder.sv ${DECODING_SRCS}
 	${IVERILOG} $^ -o test_hamming_7_4_decoder.bin && ${VVP} test_hamming_7_4_decoder.bin ${VVP_POST}
 
+test_main: tests/test_main.sv ${MAIN_SRCS}
+	${IVERILOG} $^ -o test_main.bin && ${VVP} test_main.bin ${VVP_POST}
+
 waves_rv32i_system:
 	gtkwave rv32i_system.fst -a tests/rv32i_system.gtkw
 
