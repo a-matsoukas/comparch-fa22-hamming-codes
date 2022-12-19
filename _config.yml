@@ -25,8 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Fall 2022 Semester </br>
 
   <ul>
-    <li>Alex Matsoukas</li>
-    <li>Lila Smith</li>
+    <li><a href="https://github.com/a-matsoukas" target="_blank">Alex Matsoukas</a></li>
+    <li><a href="https://github.com/lila-smith" target="_blank">Lila Smith</a></li>
   </ul>
 baseurl: "/comparch-fa22-hamming-codes" # the sbundleubpath of your site, e.g. /blog
 url: "https://a-matsoukas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
